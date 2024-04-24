@@ -1,5 +1,5 @@
-### Последние версии BIOS для ASUS X99
+Latest versions of BIOS for ASUS X99
 
-В каждом архиве два файла BIOS - оригинальный и с удалённым микрокодом для возможности использовать unlock. Файлы уже верно переименованы для прошивки через ASUS USB FlashBack, надо только стереть "_unlock"/"_original".
+In each archive, two BIOS files are original and with a remote microcode to use unlock. The files are already correctly renamed for firmware via ASUS USB FlashBack, you only need to erase "_unlock" / "_"original."
 
-Для разблокировки макс.частоты на все ядра (unlock) в настройках биоса выставьте максимальный множитель на все ядра.
+To unlock the max.f.fantre on all kernels (unlock) in biosize biosay, set the maximum multiplier to all the kernels.
