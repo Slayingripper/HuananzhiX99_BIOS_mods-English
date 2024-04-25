@@ -1,6 +1,6 @@
 Erying 11gen
 
-A free assembly, no links, no advertising. Adequate price up to 13000р. for the option with i7-11800H or higher (April 2023), you can then consider something on the usual i5-12400 and the usual mother.
+A free assembly, no links, no advertising. Adequate price up to 13000 rub. for the option with i7-11800H or higher (April 2023), you can then consider something on the usual i5-12400 and the usual mother.
 
 The ES 11800H differs from the ES 11980HK only by the overclocking potential. Both have a free multiplier. The first stability at 4.60GHz on average, the second at 4.80GHz. But in general, it depends on the copy.
 
@@ -12,7 +12,7 @@ The most important thing to do is to solve the problem with overheating of the p
 2. 2. [Whether virtualization is working](Works-li-virtualization)
 3. [How to set up TDP](How-configure-TDP)
 4. [How to set up multipliers](How--configure-multipliers)
-5. [How to make andervolt](How-to make-andervolt)
+5. [How to make undervolt](How-to make-undervolt)
 6. [How to enable built-in video when using a video card](How-on-on-enabled-built-in video-use-video card)
 7. [Where to take the drivers](Where-take-drivers)
 8. [How to configure RAM](How--configure-operational memory)
@@ -34,11 +34,11 @@ To do this, run NVPMM.exe, on the Control tab, put the Adaptive VRAM bottom chec
 
 In general, it is believed that the problem occurs only in combination with NVIDIA. There is no more beautiful solution to the problem at the moment. If you find a more elegant solution to this problem, please write off in [our Telegram group](https://t.me/russian_xeon_community).
 
-Whether virtualization works
+Does virtualization work?
 
 Virtualization works, for example in VirtualBox and BlueStacks
 
-But for some reason, the Hyper-V system component does not work. When activated, the system is rebooted at the loading stage. Helps turn off virtualization and then disconnect Hyper-V in the system. For the same reason, the "Isoliation of the core" does not work.
+But for some reason, the Hyper-V system component does not work. When activated, the system is rebooted at the loading stage. Helps turn off virtualization and then disconnect Hyper-V in the system. For the same reason, the "Isolation of the core" does not work.
 
 Configuring Virtualization - CPU Configuration > Intel (VMX) Virtualization Technology
 
@@ -58,12 +58,12 @@ OverClocking Performance Menu > OverClocking Feature > Enabled, hereinafter Proc
 
 I recommend testing the stability in [OCCT](https://www.ocbase.com/) with the following settings:
 
-    - Tab: CPU
-    - Dataset: Large
-    - Mode: Heavy
-    - Load: Variable
-    - Instructions: SSE (not AVX)
-    - Flows: Auto
+- Tab: CPU
+- Dataset: Large
+- Mode: Heavy
+- Load: Variable
+- Instructions: SSE (not AVX)
+- Flows: Auto
 
 How to enable built-in video when using a video card
 
@@ -73,11 +73,11 @@ Where to get drivers
 
 On this page [developed](https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/blob/master/Erying%2011gen/drivers_erying11gen.zip) drivers for:
 
-    - Intel SMBus (to install, click PCM by tigerlakepch-hsystem.inf and select "install")
+- Intel SMBus (to install, click PCM by tigerlakepch-hsystem.inf and select "install")
 
-    - other unknown devices in Device Manager (HM570_serialIO.exe)
+- other unknown devices in Device Manager (HM570_serialIO.exe)
 
-for built-in graphics current driver on [Intel](https://www.intel.ru/content/www/en/en/download/726609/intel-arc-iris-xe-graphics-whql-windows.html), and you can download from [TechPowerUp](https://www.techpowerup.com/down/intel-graphics-drivers)
+for built-in graphics current driver on [Intel](https://www.intel.ru/content/www/en/en/download/726609/intel-arc-iris-xe-graphics-whql-windows.html) , and you can download from [TechPowerUp](https://www.techpowerup.com/down/intel-graphics-drivers)
 
 How to set up RAM
 

@@ -1,21 +1,21 @@
 ### Huananzhi X99-T8D
-### BIOS 2020/06/24 (X99MA012)
+###BIOS 2020/06/24 (X99MA012)
 
 *v003:*
-* + микрокод для V4 и Realtek UNDI Driver обновлены до актуальных версий
-* + открыты пункты меню "SOCKET RAPL Config", "Per-Socket Configuration", "PCI Subsystem Settings" и "OverClocking Feature"
-* обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, наведён порядок с драйверами SATA RAID
-* открыт доступ на чтение/запись регионов биоса, чтобы можно было впоследствии прошить без программатора
-* открыт доступ к настройке таймингов (название пункта "Memory Timings & Voltage Override")
+* + microcode for V4 and Realtek UNDI Driver updated to the latest versions
+* + menu items "SOCKET RAPL Config", "Per-Socket Configuration", "PCI Subsystem Settings" and "OverClocking Feature" are open
+* updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, tidied up SATA RAID drivers
+* read/write access to BIOS regions is now available, so you can later flash it without a programmer
+* access to timing settings is now available (item name "Memory Timings & Voltage Override")
 * BCLK 100.00MHz (0.00% SSC)
 
 *v002:*
-* + обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, наведён порядок с драйверами SATA RAID
-* открыт доступ на чтение/запись регионов биоса, чтобы можно было впоследствии прошить без программатора
-* открыт доступ к настройке таймингов (название пункта "Memory Timings & Voltage Override")
+* + updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, tidied up SATA RAID drivers
+* read/write access to BIOS regions is now available, so you can later flash it without a programmer
+* access to timing settings is now available (item name "Memory Timings & Voltage Override")
 * BCLK 100.00MHz (0.00% SSC)
 
 *v001:*
-* + открыт доступ на чтение/запись регионов биоса, чтобы можно было впоследствии прошить без программатора
-* + открыт доступ к настройке таймингов (название пункта "Memory Timings & Voltage Override")
+* + Read/write access to BIOS regions is now available, so you can later flash it without a programmer
+* + access to timing settings is now available (item name "Memory Timings & Voltage Override")
 * + BCLK 100.00MHz (0.00% SSC)

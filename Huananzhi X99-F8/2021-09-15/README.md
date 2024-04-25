@@ -1,17 +1,17 @@
 ### Huananzhi X99-F8
-### BIOS 2021/09/15 (G3X99911)
+###BIOS 2021/09/15 (G3X99911)
 
-    Тайминг Command Rate (CR) имеет значение 3 и никак не изменяется в настройках (на данный момент неизвестно как исправить)
-    По-прежнему при использовании серверной (ECC) памяти недоступна функция коррекции ошибок (активна с версии биоса 2021-12-13)
+The Command Rate (CR) timing has a value of 3 and does not change in any way in the settings (at the moment it is not known how to fix it)
+As before, when using server (ECC) memory, the error correction function is not available (active from BIOS version 2021-12-13)
 
-Известные изменения в сравнении с версией 2021/05/11:
+Known changes compared to version 2021/05/11:
 
-    + Новое лого бренда при запуске системы
++ New brand logo at system launch
 
 *v001:*
-* обновлены микрокоды
-* исправлена проблема с шиной PCI-E, когда она работала в режиме 1.1 на некоторых видеокартах *спасибо Снуки Лоу*
-* настроено управление оборотами вентилятора процессора (<45°=30%/>80°=100%)
-* открыты пункты меню "CPU C State Control", "SOCKET RAPL Config", "Per-Socket Configuration", "OverClocking Feature", "Program PP0_CURT_CFG_CTRL_MSR" и "PCI Subsystem Settings"
-* открыт доступ к настройке таймингов (название пункта "Memory Timings & Voltage Override")
+* microcodes updated
+* fixed an issue with the PCI-E bus when it was running in 1.1 mode on some video cards *thanks Snooki Lowe*
+* configured CPU fan speed control (<45°=30%/>80°=100%)
+* menu items "CPU C State Control", "SOCKET RAPL Config", "Per-Socket Configuration", "OverClocking Feature", "Program PP0_CURT_CFG_CTRL_MSR" and "PCI Subsystem Settings" are open
+* access to timing settings is now available (item name "Memory Timings & Voltage Override")
 * BCLK 100.00MHz (0.00% SSC)

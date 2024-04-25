@@ -1,120 +1,120 @@
 ### Huananzhi X99-TF
-### BIOS 2020/05/25 (GHX99015)
+###BIOS 2020/05/25 (GHX99015)
 
-    + При использовании серверной (ECC) памяти активна функция коррекции ошибок
-    + Тайминг Command Rate (CR) может принимать любое заданное значение от 1 до 3
++ When using server (ECC) memory, error correction function is active
++ Timing Command Rate (CR) can take any specified value from 1 to 3
 
-Данный биос совместим с [Ultimate Patcher Tool](https://github.com/Koshak1013/HuananzhiX99_BIOS_mods#Ultimate-Patcher-Tool) (рекомендуется последняя версия программы)
+This BIOS is compatible with [Ultimate Patcher Tool](https://github.com/Koshak1013/HuananzhiX99_BIOS_mods#Ultimate-Patcher-Tool) (latest version of the program is recommended)
 
-Также доступна версия с отключённым бипером
+A version with the beeper disabled is also available
 
-*v011:* 
-* + добавлена поддержка Resizable BAR (SAM)
-* обновлено лого на официальное (взято из новой версии биос) и включено его отображение по умолчанию
-* добавлено +3.3V в HardwareMonitor
-* основа биоса GHX99015
-* обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, удалено лишнее (Matrox GOP и Intel Gbit)
-* настроено управление оборотами вентилятора процессора (<45°=30%/>80°=100%)
-* исправлена дата биоса в его настройках
-* пункты меню "Memory Frequency" и "OverClocking Feature" больше не будут пропадать
-* открыты пункты меню "Memory Thermal", "CPU C State Control", "Program PP0_CURT_CFG_CTRL_MSR", "SOCKET RAPL Config", "Per-Socket Configuration" и "PCI Subsystem Settings"
+*v011:*
+* + added support for Resizable BAR (SAM)
+* updated the logo to the official one (taken from the new BIOS version) and enabled its display by default
+* added +3.3V to HardwareMonitor
+* BIOS base GHX99015
+* updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, removed unnecessary stuff (Matrox GOP and Intel Gbit)
+* configured CPU fan speed control (<45°=30%/>80°=100%)
+* fixed BIOS date in its settings
+* menu items "Memory Frequency" and "OverClocking Feature" will no longer disappear
+* menu items "Memory Thermal", "CPU C State Control", "Program PP0_CURT_CFG_CTRL_MSR", "SOCKET RAPL Config", "Per-Socket Configuration" and "PCI Subsystem Settings" are open
 * BCLK 100.00MHz (0.00% SSC)
 
 *v010:*
-* + открыт пункт меню "Memory Thermal"
-* - убрана включенная ранее поддержка ASPM, т.к. наблюдалась проблема совместимости с видеокартами серии AMD Radeon RX 6000
-* обновлено лого на официальное (взято из новой версии биос) и включено его отображение по умолчанию
-* добавлено +3.3V в HardwareMonitor
-* основа биоса GHX99015
-* обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, удалено лишнее (Matrox GOP и Intel Gbit)
-* настроено управление оборотами вентилятора процессора (<45°=30%/>80°=100%)
-* исправлена дата биоса в его настройках
-* пункты меню "Memory Frequency" и "OverClocking Feature" больше не будут пропадать
-* открыты пункты меню "CPU C State Control", "Program PP0_CURT_CFG_CTRL_MSR", "SOCKET RAPL Config", "Per-Socket Configuration" и "PCI Subsystem Settings"
+* + menu item "Memory Thermal" is open
+* - previously enabled ASPM support has been removed, because There was a compatibility issue with AMD Radeon RX 6000 series video cards
+* updated the logo to the official one (taken from the new BIOS version) and enabled its display by default
+* added +3.3V to HardwareMonitor
+* BIOS base GHX99015
+* updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, removed unnecessary stuff (Matrox GOP and Intel Gbit)
+* configured CPU fan speed control (<45°=30%/>80°=100%)
+* fixed BIOS date in its settings
+* menu items "Memory Frequency" and "OverClocking Feature" will no longer disappear
+* menu items "CPU C State Control", "Program PP0_CURT_CFG_CTRL_MSR", "SOCKET RAPL Config", "Per-Socket Configuration" and "PCI Subsystem Settings" are open
 * BCLK 100.00MHz (0.00% SSC)
 
 *v009:*
-* - убран фикс шины PCI-E, т.к. некоторые видеокарты вообще перестали стартовать
-* обновлено лого на официальное (взято из новой версии биос) и включено его отображение по умолчанию
-* добавлено +3.3V в HardwareMonitor
-* основа биоса GHX99015
-* включена поддержка ASPM
-* обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, удалено лишнее (Matrox GOP и Intel Gbit)
-* настроено управление оборотами вентилятора процессора (<45°=30%/>80°=100%)
-* исправлена дата биоса в его настройках
-* пункты меню "Memory Frequency" и "OverClocking Feature" больше не будут пропадать
-* открыты пункты меню "CPU C State Control", "Program PP0_CURT_CFG_CTRL_MSR", "SOCKET RAPL Config", "Per-Socket Configuration" и "PCI Subsystem Settings"
+* - the PCI-E bus fix has been removed, because some video cards stopped starting altogether
+* updated the logo to the official one (taken from the new BIOS version) and enabled its display by default
+* added +3.3V to HardwareMonitor
+* BIOS base GHX99015
+* ASPM support included
+* updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, removed unnecessary stuff (Matrox GOP and Intel Gbit)
+* configured CPU fan speed control (<45°=30%/>80°=100%)
+* fixed BIOS date in its settings
+* menu items "Memory Frequency" and "OverClocking Feature" will no longer disappear
+* menu items "CPU C State Control", "Program PP0_CURT_CFG_CTRL_MSR", "SOCKET RAPL Config", "Per-Socket Configuration" and "PCI Subsystem Settings" are open
 * BCLK 100.00MHz (0.00% SSC)
 
 *v008:*
-* + обновлено лого на официальное (взято из новой версии биос) и включено его отображение по умолчанию
-* + исправлена проблема с шиной PCI-E, когда она работала в режиме 1.1 на некоторых видеокартах *спасибо Снуки Лоу*
-* + микрокоды для V3 и V4 обновлены до актуальных версий
-* + также доступна версия с отключённым бипером
-* добавлено +3.3V в HardwareMonitor
-* основа биоса GHX99015
-* включена поддержка ASPM
-* обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, удалено лишнее (Matrox GOP и Intel Gbit)
-* настроено управление оборотами вентилятора процессора (<45°=30%/>80°=100%)
-* исправлена дата биоса в его настройках
-* пункты меню "Memory Frequency" и "OverClocking Feature" больше не будут пропадать
-* открыты пункты меню "CPU C State Control", "Program PP0_CURT_CFG_CTRL_MSR", "SOCKET RAPL Config", "Per-Socket Configuration" и "PCI Subsystem Settings"
+* + updated the logo to the official one (taken from the new BIOS version) and enabled its display by default
+* + fixed an issue with the PCI-E bus when it was running in 1.1 mode on some video cards *thanks to Snooki Lowe*
+* + microcodes for V3 and V4 have been updated to the latest versions
+* + version with disabled beeper is also available
+* added +3.3V to HardwareMonitor
+* BIOS base GHX99015
+* ASPM support included
+* updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, removed unnecessary stuff (Matrox GOP and Intel Gbit)
+* configured CPU fan speed control (<45°=30%/>80°=100%)
+* fixed BIOS date in its settings
+* menu items "Memory Frequency" and "OverClocking Feature" will no longer disappear
+* menu items "CPU C State Control", "Program PP0_CURT_CFG_CTRL_MSR", "SOCKET RAPL Config", "Per-Socket Configuration" and "PCI Subsystem Settings" are open
 * BCLK 100.00MHz (0.00% SSC)
 
 *v007:*
-* + микрокод для V4 и Realtek UNDI Driver обновлены до актуальных версий
-* + открыты пункты меню "SOCKET RAPL Config", "Per-Socket Configuration" и "PCI Subsystem Settings" *спасибо Pavlon и MacArrow*
-* добавлено +3.3V в HardwareMonitor
-* основа биоса GHX99015
-* включена поддержка ASPM
-* пункт меню "OverClocking Feature" больше не будет пропадать
-* обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, удалено лишнее (Matrox GOP и Intel Gbit)
-* настроено управление оборотами вентилятора процессора (<45°=30%/>80°=100%)
-* исправлена дата биоса в его настройках
-* открыт пункт меню "Program PP0_CURT_CFG_CTRL_MSR"
-* пункт меню "Memory Frequency" больше не будет пропадать
-* открыт пункт меню "CPU C State Control"
+* + microcode for V4 and Realtek UNDI Driver updated to the latest versions
+* + menu items "SOCKET RAPL Config", "Per-Socket Configuration" and "PCI Subsystem Settings" are open *thanks Pavlon and MacArrow*
+* added +3.3V to HardwareMonitor
+* BIOS base GHX99015
+* ASPM support included
+* the "OverClocking Feature" menu item will no longer disappear
+* updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, removed unnecessary stuff (Matrox GOP and Intel Gbit)
+* configured CPU fan speed control (<45°=30%/>80°=100%)
+* fixed BIOS date in its settings
+* menu item "Program PP0_CURT_CFG_CTRL_MSR" is open
+* the "Memory Frequency" menu item will no longer disappear
+* menu item "CPU C State Control" is open
 * BCLK 100.00MHz (0.00% SSC)
 
 *v006:*
-* + добавлено +3.3V в HardwareMonitor
-* + основа биоса GHX99015 *спасибо v111*
-* + включена поддержка ASPM
-* + пункт меню "OverClocking Feature" больше не будет пропадать *спасибо Vitaliy Pukhov*
-* обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, удалено лишнее (Matrox GOP и Intel Gbit)
-* настроено управление оборотами вентилятора процессора (<45°=30%/>80°=100%)
-* исправлена дата биоса в его настройках
-* открыт пункт меню "Program PP0_CURT_CFG_CTRL_MSR"
-* пункт меню "Memory Frequency" больше не будет пропадать
-* открыт пункт меню "CPU C State Control"
+* + added +3.3V to HardwareMonitor
+* + BIOS base GHX99015 *thanks v111*
+* + ASPM support enabled
+* + the menu item "OverClocking Feature" will no longer disappear *thanks Vitaliy Pukhov*
+* updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, removed unnecessary stuff (Matrox GOP and Intel Gbit)
+* configured CPU fan speed control (<45°=30%/>80°=100%)
+* fixed BIOS date in its settings
+* menu item "Program PP0_CURT_CFG_CTRL_MSR" is open
+* the "Memory Frequency" menu item will no longer disappear
+* menu item "CPU C State Control" is open
 * BCLK 100.00MHz (0.00% SSC)
 
 *v005:*
-* + обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, удалено лишнее (Matrox GOP и Intel Gbit) *спасибо v111*
-* настроено управление оборотами вентилятора процессора (<45°=30%/>80°=100%)
-* исправлена дата биоса в его настройках
-* открыт пункт меню "Program PP0_CURT_CFG_CTRL_MSR"
-* пункт меню "Memory Frequency" больше не будет пропадать
-* открыт пункт меню "CPU C State Control"
+* + updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, removed unnecessary stuff (Matrox GOP and Intel Gbit) *thanks v111*
+* configured CPU fan speed control (<45°=30%/>80°=100%)
+* fixed BIOS date in its settings
+* menu item "Program PP0_CURT_CFG_CTRL_MSR" is open
+* the "Memory Frequency" menu item will no longer disappear
+* menu item "CPU C State Control" is open
 * BCLK 100.00MHz (0.00% SSC)
 
 *v004:*
-* + настроено управление оборотами вентилятора процессора (<45°=30%/>80°=100%) *спасибо mozg13 и v111*
-* + исправлена дата биоса в его настройках
-* открыт пункт меню "Program PP0_CURT_CFG_CTRL_MSR"
-* пункт меню "Memory Frequency" больше не будет пропадать
-* открыт пункт меню "CPU C State Control"
+* + configured CPU fan speed control (<45°=30%/>80°=100%) *thanks mozg13 and v111*
+* + fixed BIOS date in its settings
+* menu item "Program PP0_CURT_CFG_CTRL_MSR" is open
+* the "Memory Frequency" menu item will no longer disappear
+* menu item "CPU C State Control" is open
 * BCLK 100.00MHz (0.00% SSC)
 
 *v003:*
-* + открыт пункт меню "Program PP0_CURT_CFG_CTRL_MSR"
-* + пункт меню "Memory Frequency" больше не будет пропадать
-* открыт пункт меню "CPU C State Control"
+* + menu item "Program PP0_CURT_CFG_CTRL_MSR" is open
+* + menu item "Memory Frequency" will no longer disappear
+* menu item "CPU C State Control" is open
 * BCLK 100.00MHz (0.00% SSC)
 
 *v002:*
-* + открыт пункт меню "CPU C State Control"
+* + menu item "CPU C State Control" is open
 * BCLK 100.00MHz (0.00% SSC)
 
 *v001:*
-* + BCLK 100.00MHz (0.00% SSC) *спасибо iEngineer*
+* + BCLK 100.00MHz (0.00% SSC) *thanks iEngineer*

@@ -1,13 +1,13 @@
 ### Huananzhi X99-TF
-### BIOS 2022/08/30 (G3X99916)
+###BIOS 2022/08/30 (G3X99916)
 
-    + При использовании серверной (ECC) памяти активна функция коррекции ошибок
-    + Тайминг Command Rate (CR) может принимать любое заданное значение от 1 до 3
-	+ Рабочий режим Secure Boot
++ When using server (ECC) memory, error correction function is active
++ Timing Command Rate (CR) can take any specified value from 1 to 3
++ Secure Boot operating mode
 
-На данный момент времени данный биос не совместим с Ultimate Patcher Tool!
+At this time, this BIOS is not compatible with the Ultimate Patcher Tool!
 
 *v001:*
-* + активирована возможность спящего режима
-* + добавлена поддержка Resizable BAR (SAM)
+* + sleep mode enabled
+* + added support for Resizable BAR (SAM)
 * + BCLK 100.00MHz (0.00% SSC)

@@ -1,24 +1,24 @@
 ### Machinist X99-K9
-### BIOS 2020/06/03 (AAX99018)
+###BIOS 2020/06/03 (AAX99018)
 
-    + Для серверной памяти активна ECC
-    + Присутствует опция настройки таймингов ОЗУ
-	+ Работает четырёхканальный режим памяти на всех процессорах
-	- Не работает сброс настроек перемычкой, т.е. если выставить несовместимые с запуском системы настройки, то придётся шить программатором
-	- Не работает запуск системы без видеокарты
++ ECC is active for server memory
++ There is an option to configure RAM timings
++ Quad-channel memory mode works on all processors
+- Resetting settings with a jumper does not work, i.e. If you set settings that are incompatible with starting the system, you will have to sew with a programmer
+- Starting the system without a video card does not work
 
 *v004:*
-* + микрокод для V4 и Realtek UNDI Driver обновлены до актуальных версий
-* + открыты пункты меню "SOCKET RAPL Config", "Per-Socket Configuration", "PCI Subsystem Settings" и "OverClocking Feature"
-* обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, наведён порядок с драйверами SATA RAID
-* открыт доступ к настройке таймингов (название пункта "Memory Timings & Voltage Override")
+* + microcode for V4 and Realtek UNDI Driver updated to the latest versions
+* + menu items "SOCKET RAPL Config", "Per-Socket Configuration", "PCI Subsystem Settings" and "OverClocking Feature" are open
+* updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, tidied up SATA RAID drivers
+* access to timing settings is now available (item name "Memory Timings & Voltage Override")
 * BCLK 100.00MHz (0.00% SSC)
 
 *v003:*
-* + обновлены микрокоды и Realtek Boot Agent GE, добавлен Realtek UNDI Driver, наведён порядок с драйверами SATA RAID
-* + открыт доступ к настройке таймингов (название пункта "Memory Timings & Voltage Override")
+* + updated microcodes and Realtek Boot Agent GE, added Realtek UNDI Driver, tidied up SATA RAID drivers
+* + access to timing settings is now available (item name "Memory Timings & Voltage Override")
 * + BCLK 100.00MHz (0.00% SSC)
 
-Прошивать с помощью afudos или afuwin с ключом /gan
+Flash using afudos or afuwin with the /gan key
 
-Также есть [биос от iEngineer](https://github.com/BIOS-iEngineer/MACHINIST-X99ZV102/releases/latest). С ним работает сброс перемычкой, а также система работоспособна без видеокарты. Но на некоторых моделях процессоров, например E5-2678v3, не работает четырёхканальный режим памяти.
+There is also [BIOS from iEngineer](https://github.com/BIOS-iEngineer/MACHINIST-X99ZV102/releases/latest). A jumper reset works with it, and the system is also functional without a video card. But on some processor models, for example E5-2678v3, quad-channel memory mode does not work.
